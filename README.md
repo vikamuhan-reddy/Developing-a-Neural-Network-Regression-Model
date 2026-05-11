@@ -4,7 +4,13 @@
 To develop a neural network regression model for the given dataset.
 
 ## THEORY
-Explain the problem statement
+
+Neural Network Regression is a supervised learning technique used to predict continuous numerical values from input data. In this experiment, a neural network model is developed to learn the relationship between one numeric input and one numeric output.
+
+A neural network consists of input, hidden, and output layers connected through neurons. Hidden layers use activation functions such as ReLU to learn complex patterns in the data, while the output layer produces a continuous numerical value for regression.
+
+Before training, the dataset is normalized using MinMaxScaler and split into training and testing data. The model is trained using the RMSprop optimizer and Mean Squared Error (MSE) loss function to reduce prediction error. Finally, the trained model is evaluated and used to predict output values for new input data.
+
 
 ## Neural Network Model
 <img width="615" height="491" alt="Screen Shot 2026-04-20 at 14 45 34" src="https://github.com/user-attachments/assets/ba9b5e65-204c-4348-8538-e9a22c20a79b" />
@@ -41,7 +47,7 @@ Evaluate the model with the testing data.
 
 ### STEP 8: 
 
-Use the trained model to predict  for a new input value .
+Use the trained model to predict  for a new input value.
 
 ## PROGRAM
 
